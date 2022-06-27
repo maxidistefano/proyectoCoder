@@ -1,0 +1,19 @@
+.div_h1J{
+    font-size: map-get($headings, h1)
+}
+.div_h2J{
+    font-size: map-get($headings, h2);
+}
+.div-Grid{
+    @include grid;
+}
+.pnoticias{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:black;
+    grid-area: contenido;
+}
+span {
+    @extend .pnoticias;
+    margin: 50px;
+}

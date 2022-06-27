@@ -1,9 +1,13 @@
-.mainClub{
-background-color: rgba(128, 128, 128, 0.829);
 
+.mainClub{
+    background-color: rgba(128, 128, 128, 0.829);
+    
     .mainClub__h2{
         color:rgb(38, 38, 241);
         border: black solid 4px;
         background-color: rgba(255, 255, 0, 0.644);
     }
 }
+@import     "./parciales/map",
+            "./parciales/mixins",
+            "./parciales/variables";
