@@ -11,18 +11,11 @@
 .div_h2J {
   font-size: 1.5em; }
 
-.div-Grid {
-  display: grid;
-  grid-template-areas: "img titulo" "img contenido";
-  grid-template-rows: 1fr 6fr;
-  grid-template-columns: 1 fr 1fr;
-  grid-gap: 20px; }
-
-.pnoticias, span {
-  font-size: 20px;
-  font-family: Arial, Helvetica, sans-serif;
-  color: black;
-  grid-area: contenido; }
+.fieldset {
+  justify-content: center;
+  text-align: center; }
 
 span {
   margin: 50px; }
+
+

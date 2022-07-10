@@ -13,6 +13,10 @@
     color:black;
     grid-area: contenido;
 }
+.fieldset{
+    justify-content: center;
+    text-align: center;
+}
 span {
     @extend .pnoticias;
     margin: 50px;
