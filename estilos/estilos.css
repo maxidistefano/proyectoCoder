@@ -433,7 +433,10 @@ list-style-type: circle;
     .section_grid{
         grid-column: 1/3;
         grid-row: 2;
-    }
+        }
+        .imgNoticias{
+            height: 40%;
+            }
 }
 @media screen and (max-width: 1015px) {
     .c3{
@@ -453,5 +456,10 @@ list-style-type: circle;
 @media screen and (max-width: 500px) {
     .ulmenu{
         font-size: 12px;
+    }
+}
+@media screen and (max-width:970px) {
+    .imgNoticias{
+        height: 50%;
     }
 }
